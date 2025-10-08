@@ -1,0 +1,419 @@
+:root {
+}
+
+.custom-form-control {
+  height: 40px;
+}
+
+.custom-form-error {
+  font-size: 12px;
+}
+.tbl-border-rounded {
+  border-radius: 10px !important;
+}
+
+.user-paceholder {
+  height: 70px;
+  border-radius: 50px;
+  border: 4px solid #c3c3c3;
+}
+
+.user-name {
+  color: #787878;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+/* Sidebar */
+.authpage-logo img {
+  width: 120px !important;
+}
+
+.navigation-btn {
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  border: none;
+}
+
+/* Overlay Loading */
+.overlay-loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-link-item {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  color: #787878;
+  font-weight: 500;
+}
+.social-link-item .social-link-item-icon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.cursor-hand {
+  cursor: pointer;
+}
+
+.ck-editor__editable {
+  min-height: 120px; /* Set a custom minimum height */
+  max-height: 300px; /* Optionally, you can set a max height */
+  overflow-y: auto; /* Add scroll if content overflows */
+}
+/* Basic table styling */
+.table-striped-new {
+  width: 100%;
+  border-collapse: separate; /* Changed to separate to allow rounded corners */
+  border-spacing: 0;
+}
+
+/* Table header */
+.table-striped-new th {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: left;
+  font-weight: bold;
+}
+
+/* Table cells */
+.table-striped-new td {
+  padding: 10px 20px;
+}
+
+/* Striped rows */
+.table-striped-new tr:nth-child(odd) {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Optional hover effect */
+/* .table-striped-new tr:hover {
+  background-color: #e6e6e6;
+  border-radius: 10px;
+} */
+
+/* Styling for the first and last cells to round corners */
+.table-striped-new tr td:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.table-striped-new tr td:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.program-benifits ul {
+  list-style-position: inside;
+  /* margin-left: 20px; */
+  padding-left: 0;
+  list-style: none;
+}
+
+.program-benifits ul li {
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.program-benifits ul li::before {
+  content: "";
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  position: absolute;
+  background: rgb(159, 159, 159);
+  top: 17px;
+  left: 5px;
+}
+
+.plan-features ol,
+.plan-features ul {
+  list-style-position: inside;
+  /* margin-left: 20px; */
+  padding-left: 0;
+  /* list-style: none; */
+}
+
+.plan-features ol li,
+.plan-features ul li {
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  padding-left: 20px;
+}
+
+/* .plan-features ol li::before,
+.plan-features ul li::before {
+  content: "";
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  position: absolute;
+  background: rgb(159, 159, 159);
+  top: 17px;
+  left: 5px;
+} */
+
+.p-image {
+  height: 60px;
+  width: 60px;
+  position: relative;
+}
+
+.p-image img {
+  height: 60px !important;
+  width: 60px !important;
+  border-radius: 0 !important;
+}
+
+.p-image-remove {
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* border-top-right-radius: 5px; */
+  padding: 4px;
+  color: white;
+  font-size: 11px;
+  border-radius: 0;
+}
+/* Default Gray Background */
+.custom-switch {
+  width: 3rem;
+  height: 1.5rem;
+  background-color: #ccc; /* Light Gray */
+  border: none;
+  transition: background-color 0.3s ease-in-out;
+  outline: none;
+  box-shadow: none;
+}
+
+/* When Switch is Turned ON */
+.custom-switch:checked {
+  background-color: #007bff; /* Bootstrap Primary Blue */
+}
+
+/* Remove Focus Outline */
+.custom-switch:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.card-title-custom {
+  text-transform: unset !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 13px !important;
+}
+
+#blog-editor .ck-editor__editable_inline {
+  min-height: 400px;
+}
+
+.select-product-section {
+  border: 1px dotted #5a5a5a;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.select-product-section {
+  border: 1px dotted #5a5a5a;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.select-product-section:hover {
+  background-color: #f3f3f3;
+}
+
+.select-product-section button {
+  border-radius: 10px;
+  border: 0;
+  box-shadow: 0px 0px 1px 1px #d9d3d3;
+  cursor: pointer;
+  padding: 0px;
+}
+
+.select-product-section button label {
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0px 10px;
+}
+
+.media-list-section .card {
+  position: relative;
+}
+
+.media-list-section img {
+  height: 100%;
+  width: 100%;
+}
+
+.media-list-section .media-close-btn {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 15px;
+  padding: 2px;
+  background-color: white;
+  border: 1px solid #e8e4e4;
+  /* border-radius: 5px; */
+  color: red;
+}
+
+.selected-img {
+  border: 2px solid #5a5a5a;
+}
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+ul.timeline:before {
+  content: " ";
+  background: #d4d9df;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+ul.timeline > li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+ul.timeline > li:before {
+  content: " ";
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #22c0e8;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+}
+
+/* Google Analytics Stats */
+.stats-card {
+  border-radius: 5px; /* Slightly larger radius */
+  /* The key to the neumorphic look: a light gradient and two shadows (one light, one dark) */
+  background: #e0e5ec;
+  /* box-shadow: 9px 9px 16px #a3b1c6, -9px -9px 16px #ffffff; */
+  border: none; /* Remove the old border */
+  overflow: hidden;
+  /* Smooth transition for hover effects */
+  transition: all 0.3s ease-in-out;
+}
+
+.stats-card:hover {
+  /* Make the shadows slightly more pronounced on hover */
+  /* box-shadow: 2px 2px 5px #a3b1c6, -2px -2px 5px #ffffff; */
+  /* Lift the card up slightly */
+  transform: translateY(-2px);
+}
+
+.stat-item {
+  /* Padding inside each stat block */
+  padding: 1.5rem;
+}
+
+.stat-label {
+  /* font-size: 0.9rem;  */
+  font-size: 13px !important;
+  font-weight: 500; /* Medium weight */
+  color: #5b6a80; /* A muted, soft blue-grey */
+  /* text-transform: uppercase;  */
+  letter-spacing: 0.5px;
+}
+
+.stat-value {
+  font-size: 1.875rem; /* Larger value text */
+  font-weight: 500; /* Bold */
+  /* A vibrant blue to make the numbers pop */
+  color: #000000;
+  margin-top: 0.5rem;
+}
+
+/* --- Responsive Dividers (Neumorphic Style) --- */
+
+/* Add relative positioning to columns to anchor the pseudo-elements */
+.stats-card .col-6 {
+  position: relative;
+}
+
+/* A softer, gradient-like divider for desktop */
+@media (min-width: 768px) {
+  .stats-card .col-md-3:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 20%;
+    right: 0;
+    height: 60%;
+    width: 2px;
+    /* Create a soft, inset shadow effect for the divider */
+    background: #d1d9e6;
+    box-shadow: inset 1px 1px 2px #b8c1d1, inset -1px -1px 2px #f0f5fd;
+    border-radius: 2px;
+  }
+}
+
+/* Dividers for small screens (2x2 grid) */
+@media (max-width: 767.98px) {
+  /* Vertical dividers for the left column items */
+  .stats-card .col-6:nth-child(odd)::after {
+    content: "";
+    position: absolute;
+    top: 20%;
+    right: 0;
+    height: 60%;
+    width: 2px;
+    background: #d1d9e6;
+    box-shadow: inset 1px 1px 2px #b8c1d1, inset -1px -1px 2px #f0f5fd;
+    border-radius: 2px;
+  }
+
+  /* Horizontal dividers for the top row items */
+  .stats-card .col-6:nth-child(-n + 2) {
+    /* Use a box shadow to create a soft horizontal divider */
+    box-shadow: 0 1px 0 #d1d9e6;
+    border-bottom: 1px solid #f0f5fd;
+  }
+}

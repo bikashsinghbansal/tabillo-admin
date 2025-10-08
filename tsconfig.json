@@ -1,0 +1,13 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "baseUrl": "src", // Set the base directory to "src"
+    "paths": {
+      "@schemas/*": ["schemas/*"] // Set up a path alias for schemas
+    }
+  }
+}
